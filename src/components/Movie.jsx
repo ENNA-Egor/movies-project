@@ -20,4 +20,4 @@ function Movie(props) {
   </div>
 }
 
-export { Movie };
+export {Movie};

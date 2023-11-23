@@ -5,7 +5,7 @@ function Movies(props) {
 
     return <div className="movies">
         {movies.map(movie => (
-            <Movie key={movie.imdbID} {...movie}/>
+            <Movie key={movie.imdbID} {...movie} />
         ))}
     </div> 
 }
