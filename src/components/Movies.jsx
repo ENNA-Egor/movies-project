@@ -1,14 +1,13 @@
-import React from 'react';
 import {Movie} from './Movie'
 
-function Movies() {
+function Movies(props) {
+    const {movies} = props;
+
     return <div className="movies">
-        Movies
-        <Movie />
-        <Movie />
-        <Movie />
-    </div>;
-    
+        {movies.map(movie => (
+            <Movie key={movie.imdbID} {...movie}/>
+        ))}
+    </div> 
 }
 
-export { Movies };
+export {Movies}
