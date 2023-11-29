@@ -24,8 +24,22 @@ class Search extends React.Component{
                 onChange={(e) => this.setState({search: e.target.value})}
                 onKeyDown={this.handleKey}
                 />
-                <button onClick={()=> this.props.searchMovies(this.state.search)} className="waves-effect waves-light btn search-btn">Search</button>
+                <button onClick={()=> this.props.searchMovies(this.state.search)} className="waves-effect  indigo btn search-btn">Search</button>
           </div>
+        </div>
+        <div>
+          <label>
+            <input className="with-gap" name="type" type="radio"/>
+            <span>All</span>
+          </label>
+          <label>
+            <input className="with-gap" name="type" type="radio"/>
+            <span>Movies only</span>
+          </label>
+          <label>
+            <input className="with-gap" name="type" type="radio"/>
+            <span>Series only</span>
+          </label>
         </div>
       </div>
     }
