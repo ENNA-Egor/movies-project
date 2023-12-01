@@ -34,7 +34,7 @@ nav {
 }
 
 .radio:checked+span:after, .radio.with-gap:checked+span:before, .radio.with-gap:checked+span:after {
-  border: 1px solid #1a237e;
+  border: 2px solid #5c6bc0;
 }
 
 .radio:checked+span:after, .radio.with-gap:checked+span:after {
