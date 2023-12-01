@@ -29,15 +29,15 @@ class Search extends React.Component{
         </div>
         <div>
           <label>
-            <input className="with-gap" name="type" type="radio"/>
+            <input className="with-gap radio" name="type" type="radio"/>
             <span>All</span>
           </label>
           <label>
-            <input className="with-gap" name="type" type="radio"/>
+            <input className="with-gap radio" name="type" type="radio"/>
             <span>Movies only</span>
           </label>
           <label>
-            <input className="with-gap" name="type" type="radio"/>
+            <input className="with-gap radio" name="type" type="radio"/>
             <span>Series only</span>
           </label>
         </div>

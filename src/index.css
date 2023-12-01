@@ -33,3 +33,10 @@ nav {
   right: 0.5rem;
 }
 
+.radio:checked+span:after, .radio.with-gap:checked+span:before, .radio.with-gap:checked+span:after {
+  border: 1px solid #1a237e;
+}
+
+.radio:checked+span:after, .radio.with-gap:checked+span:after {
+  background-color: #1a237e;
+}
