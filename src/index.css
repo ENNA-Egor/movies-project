@@ -49,3 +49,10 @@ h4 {
   font-size: 16px;
   color: rgb(255, 136, 0);
 }
+.progress{
+  background-color: #c5cae9;
+}
+
+.progress .indeterminate{
+  background-color: #303f9f;
+}
